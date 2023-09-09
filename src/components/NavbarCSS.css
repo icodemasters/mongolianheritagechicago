@@ -1,0 +1,80 @@
+CSS.hcf-navbar .dropdown-menu {
+    border: none;
+    --bs-dropdown-bg: var(--bs-light);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  }
+  .hcf-navbar {
+    --bs-navbar-nav-link-padding-x: 0.8rem;
+  }
+  .hcf-navbar .navbar-toggler {
+    border: none;
+  }
+  @keyframes hcf-navbar-dropdown-show {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @media (min-width: 576px) {
+    .hcf-navbar.navbar-expand-sm .dropdown-menu.show {
+      display: none;
+    }
+    .hcf-navbar.navbar-expand-sm .dropdown:hover > .dropdown-menu,
+    .hcf-navbar.navbar-expand-sm .dropdown:hover > .dropdown-menu.show {
+      display: block !important;
+      animation: hcf-navbar-dropdown-show 0.2s;
+    }
+  }
+  @media (min-width: 768px) {
+    .hcf-navbar.navbar-expand-md .dropdown-menu.show {
+      display: none;
+    }
+    .hcf-navbar.navbar-expand-md .dropdown:hover > .dropdown-menu,
+    .hcf-navbar.navbar-expand-md .dropdown:hover > .dropdown-menu.show {
+      display: block !important;
+      animation: hcf-navbar-dropdown-show 0.2s;
+    }
+  }
+  @media (min-width: 992px) {
+    .hcf-navbar.navbar-expand-lg .dropdown-menu.show {
+      display: none;
+    }
+    .hcf-navbar.navbar-expand-lg .dropdown:hover > .dropdown-menu,
+    .hcf-navbar.navbar-expand-lg .dropdown:hover > .dropdown-menu.show {
+      display: block !important;
+      animation: hcf-navbar-dropdown-show 0.2s;
+    }
+  }
+  @media (min-width: 1200px) {
+    .hcf-navbar.navbar-expand-xl .dropdown-menu.show {
+      display: none;
+    }
+    .hcf-navbar.navbar-expand-xl .dropdown:hover > .dropdown-menu,
+    .hcf-navbar.navbar-expand-xl .dropdown:hover > .dropdown-menu.show {
+      display: block !important;
+      animation: hcf-navbar-dropdown-show 0.2s;
+    }
+  }
+  @media (min-width: 1400px) {
+    .hcf-navbar.navbar-expand-xxl .dropdown-menu.show {
+      display: none;
+    }
+    .hcf-navbar.navbar-expand-xxl .dropdown:hover > .dropdown-menu,
+    .hcf-navbar.navbar-expand-xxl .dropdown:hover > .dropdown-menu.show {
+      display: block !important;
+      animation: hcf-navbar-dropdown-show 0.2s;
+    }
+  }
+  .hcf-navbar.navbar-expand .dropdown-menu.show {
+    display: none;
+  }
+  .hcf-navbar.navbar-expand .dropdown:hover > .dropdown-menu,
+  .hcf-navbar.navbar-expand .dropdown:hover > .dropdown-menu.show {
+    display: block !important;
+    animation: hcf-navbar-dropdown-show 0.2s;
+  }
