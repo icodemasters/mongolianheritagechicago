@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mongolianheritagechicago/static/css/main.585d7424.css",
+    "main.js": "/mongolianheritagechicago/static/js/main.a86ca5dc.js",
+    "static/media/logo.jpg": "/mongolianheritagechicago/static/media/logo.efd582fbcea554a83519.jpg",
+    "index.html": "/mongolianheritagechicago/index.html",
+    "main.585d7424.css.map": "/mongolianheritagechicago/static/css/main.585d7424.css.map",
+    "main.a86ca5dc.js.map": "/mongolianheritagechicago/static/js/main.a86ca5dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.585d7424.css",
+    "static/js/main.a86ca5dc.js"
+  ]
+}
